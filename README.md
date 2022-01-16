@@ -1,22 +1,16 @@
-# Word Master
+# Maestro de Palabras
 
-🔗 https://octokatherine.github.io/word-master/
 
-Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind. I created this because I love Wordle, but the once a day limit leaves me wanting more.
 
-## Rules
+Por la inspiracion de [Wordle](https://www.powerlanguage.co.uk/wordle/), Maestro de Palabras es un juego en lo que puedes advinar una palabra.  El es como el juego "Mastermind".  Hay dos diferencias en ese version:  no hay limite por dia y las palabras son en español.
 
-You have 6 guesses to guess the correct word.
-Each guess can be any valid word.
+## Reglas
 
-After submitting a guess, the letters will turn gray, green, or yellow.
+Tienes 6 tratos para advinar la palabra.
+Cada trato tine que ser una palabra valida.
+Por cada trato, las letras cambia su color.
 
-- Green: The letter is correct, in the correct position.
-- Yellow: The letter is correct, but in the wrong position.
-- Gray: The letter is incorrect.
+- Verde: La letra esta correcta en la ubicaccion correcta
+- Amarailla: La letra existe en la palabra, pero esta en la ubicaccion equivocada
+- Gris: No hay esta letra en la palabra.
 
-## Contributing
-
-Feel free to open an issue for any bugs or feature requests.
-
-To contribute to the code, see [CONTRIBUTING.md](https://github.com/octokatherine/word-master/blob/main/CONTRIBUTING.md)
