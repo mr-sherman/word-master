@@ -48,12 +48,12 @@ export const EndGameModal = ({
           {gameState === state.won && (
             <>
               <img src={Success} alt="success" height="auto" width="auto" />
-              <h1 className=" text-3xl">Congrats!</h1>
+              <h1 className=" text-3xl">Felicitaciónes!</h1>
               <p className="mt-6">
-                Current streak: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
+                Racha: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
               </p>
               <p>
-                Longest streak: <strong>{longestStreak}</strong>
+                Racha mas larga: <strong>{longestStreak}</strong>
               </p>
             </>
           )}
@@ -61,15 +61,15 @@ export const EndGameModal = ({
             <>
               <img src={Fail} alt="success" height="auto" width="80%" />
               <div className="text-primary dark:text-primary-dark text-4xl text-center">
-                <p>Oops!</p>
+                <p>Lo siento!</p>
                 <p className="mt-3 text-2xl">
-                  The word was <strong>{answer}</strong>
+                  La palabra es <strong>{answer}</strong>
                 </p>
                 <p className="mt-6 text-base">
-                  Current streak: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
+                  Racha: <strong>{currentStreak}</strong> {currentStreak > 4 && '🔥'}
                 </p>
                 <p className="text-base">
-                  Longest streak: <strong>{longestStreak}</strong>
+                  Racha mas larga: <strong>{longestStreak}</strong>
                 </p>
               </div>
             </>
